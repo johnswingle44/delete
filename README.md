@@ -47,7 +47,9 @@ jdbcli> select id, name, city from team where id = 1234567890 \G
 1 row in set (0.16 sec)
 ```
 
-### Installation
+### Setup
+
+#### Install `jdbcli`
 
 Follow the instructions below to install the latest release in `/usr/local`, but obviously install it wherever you see fit. 
 
@@ -57,9 +59,7 @@ $ tar -xzf jdbcli-0.1.0.tar.gz
 $ sudo mv jdbcli-0.1.0 /usr/local/
 ```
 
-### Setup
-
-##### Download Driver
+##### Locate Driver
 
 In order to talk to your database of choice, you need to provide a database-specific JDBC library.
 The below table includes links to download the JDBC library for common databases. Links may be outdated,
@@ -84,7 +84,7 @@ For instance, if you are using MySQL and downloaded the mysql-connector-java-5.1
 $ cp /path/to/file/mysql-connector-java-5.1.38-bin.jar /usr/local/jdbcli-0.1.0/lib/
 ```
 
-##### Add `jdbcli` to PATH (Optional)
+##### Update PATH (Optional)
 
 You may also want to add the installed bin directory, `/usr/local/jdbcli-0.1.0/bin/`, to your `$PATH` to more easily run via `jdbcli` instead of `/usr/local/jdbcli-0.1.0/bin/jdbcli`. This is platform-dependent (e.g. update your `.bashrc` if you use the bash shell).
 
