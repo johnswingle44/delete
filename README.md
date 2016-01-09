@@ -24,7 +24,6 @@ you're connected to a non-MySQL database.
 
 The standard output. Simply end your query with either `;` or `\g`
 ```
----------------------------------
 jdbcli> select id, name, city from team where id = 1234567890;
 +------------+--------+--------------+
 | ID         | NAME   | CITY         |
