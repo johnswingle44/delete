@@ -48,10 +48,6 @@ jdbcli> select id, name, city from team where id = 1234567890 \G
 1 row in set (0.16 sec)
 ```
 
-### License
-
-Released under the MIT License (see LICENSE.txt file). Third-Party license information in NOTICE.txt file.
-
 ### Installation
 
 Follow the instructions below to install the latest release in `/usr/local`, but obviously install it wherever you see fit. 
@@ -70,3 +66,7 @@ You can also add `/usr/local/jdbcli-0.1.0/bin/` to your `$PATH` to more easily r
 ```
 $ /usr/local/jdbcli-0.1.0/bin/jdbcli --config /path/to/config
 ```
+
+### License
+
+Released under the MIT License (see LICENSE.txt file). Third-Party license information in NOTICE.txt file.
