@@ -1,6 +1,18 @@
 # `jdbcli> a jdbc command-line interface`
 
-Looking for a JDBC-based database client similar in functionality to the MySQL command-line interface?
+### Overview
+
+`jdbcli` is a jdbc command-line interface for interacting with databases. 
+The goal is to mimic `mysql`, the MySQL command-line client as much as
+possible. After years of working with MySQL, the project I was on migrated to
+Oracle, and I soon grew to detest it. After a while, I realized that though I
+prefer MySQL, a lot of my grievances stemmed from having to choose between the
+bloated `SQLDeveloper` and the ugly `sqlplus`. When using MySQL, I
+often have multiple `mysql` processes in terminal tabs, and I really enjoy
+that way of working.
+
+Hopefully `jdbcli` makes you forget, if only for a little while, that
+you're connected to a non-MySQL database.
 
 ### Table of Contents
 
@@ -17,20 +29,6 @@ Looking for a JDBC-based database client similar in functionality to the MySQL c
   * [Update PATH](#update-path-optional)
 * [Running](#running)
 * [License](#license)
-
-### Overview
-
-`jdbcli` is a jdbc command-line interface for interacting with databases. 
-The goal is to mimic `mysql`, the MySQL command-line client as much as
-possible. After years of working with MySQL, the project I was on migrated to
-Oracle, and I soon grew to detest it. After a while, I realized that though I
-prefer MySQL, a lot of my grievances stemmed from having to choose between the
-bloated `SQLDeveloper` and the ugly `sqlplus`. When using MySQL, I
-often have multiple `mysql` processes in terminal tabs, and I really enjoy
-that way of working.
-
-Hopefully `jdbcli` makes you forget, if only for a little while, that
-you're connected to a non-MySQL database.
 
 ### Features
 
