@@ -1,6 +1,6 @@
-# `jdbcli>`
+# `jdbcli> a jdbc command-line interface`
 
-`jdbcli` is a jdbc command-line interface for interacting with databases. 
+Looking for a JDBC-based database client similar in functionality to the MySQL command-line interface?
 
 ### Table of Contents
 
