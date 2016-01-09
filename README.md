@@ -47,6 +47,10 @@ jdbcli> select id, name, city from team where id = 1234567890 \G
 1 row in set (0.16 sec)
 ```
 
+##### History
+
+The provided [JLine](https://github.com/jline/jline2) library provides console input; it provides similar functionality to [BSD editline](http://thrysoee.dk/editline/) and [GNU readline](http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html).
+
 ### Setup
 
 ##### Install `jdbcli`
