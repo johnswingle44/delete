@@ -9,6 +9,7 @@
   * [History](#history)
   * [Non-Interactive Mode](#non-interactive-mode)
 * [Setup](#setup)
+  * [Requirements](#requirements)
   * [Install jdbcli](#install-jdbcli)
   * [Locate Driver](#locate-driver)
   * [Install Driver](#install-driver)
@@ -80,6 +81,10 @@ $ jdbcli --config ~/etc/myconfig.properties --execute "select id, name, city fro
 ```
 
 ### Setup
+
+##### Requirements
+
+You need a Java Runtime Environment (JRE) >= 1.6 and a suitable JDBC driver for your database.
 
 ##### Install `jdbcli`
 
