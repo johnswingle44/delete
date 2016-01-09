@@ -1,4 +1,4 @@
-# `jdbcli> a jdbc command-line interface`
+### `jdbcli> a jdbc command-line interface`
 
 * [Overview](#overview)
 * [Features](#features)
