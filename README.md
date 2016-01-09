@@ -16,10 +16,6 @@ you're connected to a non-MySQL database.
 
 ### Features
 
-* interactive and non-interactive modes
-* interactive statements get written to a history file
-* horizontal and vertical output modes
-
 ##### Horizontal Output
 
 The standard output. Simply end your query with either `;` or `\g`
@@ -50,6 +46,21 @@ jdbcli> select id, name, city from team where id = 1234567890 \G
 ##### History
 
 The provided [JLine](https://github.com/jline/jline2) library provides console input; it provides similar functionality to [BSD editline](http://thrysoee.dk/editline/) and [GNU readline](http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html).
+
+##### Non-Interactive Mode
+
+Execute SQL queries directly from the command-line; this is referred to as "non-interactive mode". To do so, use
+either the `--execute` or `-e` argument. See below for an example:
+
+```
+$ jdbcli --config ~/etc/myconfig.properties --execute "select id, name, city from team where id = 1234567890"
++------------+--------+--------------+
+| ID         | NAME   | CITY         |
++------------+--------+--------------+
+| 1234567890 | Flyers | Philadelphia |
++------------+--------+--------------+
+1 row in set (0.03 sec)
+```
 
 ### Setup
 
