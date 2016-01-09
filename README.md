@@ -66,12 +66,19 @@ You can also add `/usr/local/jdbcli-0.1.0/bin/` to your `$PATH` to more easily r
 $ /usr/local/jdbcli-0.1.0/bin/jdbcli --config /path/to/config
 ```
 
-In order to talk to your database of choice, you need to provide a database-specific JDBC library. 
+In order to talk to your database of choice, you need to provide a database-specific JDBC library.
+The below table includes links to download the JDBC library for common databases. Links may be outdated,
+in which case just Google it.
 
-| Database    | JDBC driver download |
-| ----------- | -------------------- |
-| MySQL       | https://dev.mysql.com/downloads/connector/j/ |
-| PostgreSQL  | https://jdbc.postgresql.org/download.html |
+| Database     | JDBC driver download |
+| ------------ | -------------------- |
+| Apache Derby | https://db.apache.org/derby/derby_downloads.html |
+| Java DB      | (provided in JDK) |
+| MySQL        | https://dev.mysql.com/downloads/connector/j/ |
+| Oracle       | http://www.oracle.com/technetwork/database/features/jdbc/index.html |
+| PostgreSQL   | https://jdbc.postgresql.org/download.html |
+| SQL Server   | https://www.microsoft.com/en-US/download/details.aspx?id=11774 |
+| SQLite       | https://bitbucket.org/xerial/sqlite-jdbc/downloads |
 
 ### License
 
