@@ -20,7 +20,7 @@ you're connected to a non-MySQL database.
 * interactive statements get written to a history file
 * horizontal and vertical output modes
 
-##### Sample Horizontal Output
+##### Horizontal Output
 
 The standard output. Simply end your query with either `;` or `\g`
 ```
@@ -33,7 +33,7 @@ jdbcli> select id, name, city from team where id = 1234567890;
 1 row in set (0.03 sec)
 ```
 
-##### Sample Vertical Output
+##### Vertical Output
 
 Increase readability when the output would be too wide in horizontal mode. End
 you query with `\G`
