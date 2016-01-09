@@ -5,6 +5,9 @@
 * [Overview](#overview)
 * [Features](#features)
   * [Horizontal Output](#horizontal-output)
+  * [Vertical Output](#vertical-output)
+  * [History](#history)
+  * [Non-Interactive Mode](#non-interactive-mode)
 
 ### Overview
 
