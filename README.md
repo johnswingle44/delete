@@ -1,0 +1,72 @@
+# `jdbcli> a jdbc command-line interface`
+
+### Overview
+
+`jdbcli` is a jdbc command-line interface for interacting with databases. 
+The goal is to mimic `mysql`, the MySQL command-line client as much as
+possible. After years of working with MySQL, the project I was on migrated to
+Oracle, and I soon grew to detest it. After a while, I realized that though I
+prefer MySQL, a lot of my grievances stemmed from having to choose between the
+bloated `SQLDeveloper` and the ugly `sqlplus`. When using MySQL, I
+often have multiple `mysql` processes in terminal tabs, and I really enjoy
+that way of working.
+
+Hopefully `jdbcli` makes you forget, if only for a little while, that
+you're connected to a non-MySQL database.
+
+### Features
+
+* interactive and non-interactive modes
+* interactive statements get written to a history file
+* horizontal and vertical output modes
+
+### Sample Horizontal Output
+
+The standard output. Simply end your query with either `;` or `\g`
+```
+---------------------------------
+jdbcli> select id, name, city from team where id = 1234567890;
++------------+--------+--------------+
+| ID         | NAME   | CITY         |
++------------+--------+--------------+
+| 1234567890 | Flyers | Philadelphia |
++------------+--------+--------------+
+1 row in set (0.03 sec)
+```
+
+### Sample Vertical Output
+
+Increase readability when the output would be too wide in horizontal mode. End
+you query with `\G`
+
+```
+jdbcli> select id, name, city from team where id = 1234567890 \G
+*************************** 1. row ***************************
+                     ID: 1234567890119
+                   NAME: Flyers
+                   CITY: Philadelphia
+1 row in set (0.16 sec)
+```
+
+### License
+
+Released under the MIT License (see LICENSE.txt file). Third-Party license information in NOTICE.txt file.
+
+### Installation
+
+Follow the instructions below to install the latest release in `/usr/local`, but obviously install it wherever you see fit. 
+
+```
+$ wget https://github.com/artloder/jdbcli/archive/jdbcli-0.1.0.tar.gz
+$ tar -xzf jdbcli-0.1.0.tar.gz
+$ sudo mv jdbcli-0.1.0 /usr/local/
+```
+
+### Running
+
+You can also add `/usr/local/jdbcli-0.1.0/bin/` to your `$PATH` to more easily run via `jdbcli` instead of
+`/usr/local/jdbcli-0.1.0/bin/jdbcli`.
+
+```
+$ /usr/local/jdbcli-0.1.0/bin/jdbcli --config /path/to/config
+```
