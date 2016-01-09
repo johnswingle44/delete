@@ -49,7 +49,7 @@ jdbcli> select id, name, city from team where id = 1234567890 \G
 
 ### Setup
 
-#### Install `jdbcli`
+##### Install `jdbcli`
 
 Follow the instructions below to install the latest release in `/usr/local`, but obviously install it wherever you see fit. 
 
