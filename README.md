@@ -68,4 +68,4 @@ $ /usr/local/jdbcli-0.1.0/bin/jdbcli --config /path/to/config
 
 ### License
 
-Released under the MIT License (see LICENSE.txt file). Third-Party license information in NOTICE.txt file.
+Released under the MIT License (see LICENSE.txt file). Third party license information in NOTICE.txt file.
