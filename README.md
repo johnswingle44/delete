@@ -8,6 +8,13 @@
   * [Vertical Output](#vertical-output)
   * [History](#history)
   * [Non-Interactive Mode](#non-interactive-mode)
+* Setup
+  * [Install jdbcli](#install-jdbcli)
+  * [Locate Driver](#locate-driver)
+  * [Install Driver(#install-driver)
+  * [Update PATH](#update-path-optional)
+* Running
+* License
 
 ### Overview
 
