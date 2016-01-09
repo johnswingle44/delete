@@ -57,7 +57,7 @@ $ tar -xzf jdbcli-0.1.0.tar.gz
 $ sudo mv jdbcli-0.1.0 /usr/local/
 ```
 
-### Running
+### Setup
 
 You can also add `/usr/local/jdbcli-0.1.0/bin/` to your `$PATH` to more easily run via `jdbcli` instead of
 `/usr/local/jdbcli-0.1.0/bin/jdbcli`.
@@ -79,6 +79,8 @@ in which case just Google it.
 | PostgreSQL   | https://jdbc.postgresql.org/download.html |
 | SQL Server   | https://www.microsoft.com/en-US/download/details.aspx?id=11774 |
 | SQLite       | https://bitbucket.org/xerial/sqlite-jdbc/downloads |
+
+### Execution
 
 ### License
 
