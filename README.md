@@ -59,12 +59,7 @@ $ sudo mv jdbcli-0.1.0 /usr/local/
 
 ### Setup
 
-You can also add `/usr/local/jdbcli-0.1.0/bin/` to your `$PATH` to more easily run via `jdbcli` instead of
-`/usr/local/jdbcli-0.1.0/bin/jdbcli`.
-
-```
-$ /usr/local/jdbcli-0.1.0/bin/jdbcli --config /path/to/config
-```
+#### Download Driver
 
 In order to talk to your database of choice, you need to provide a database-specific JDBC library.
 The below table includes links to download the JDBC library for common databases. Links may be outdated,
@@ -80,7 +75,24 @@ in which case just Google it.
 | SQL Server   | https://www.microsoft.com/en-US/download/details.aspx?id=11774 |
 | SQLite       | https://bitbucket.org/xerial/sqlite-jdbc/downloads |
 
-### Execution
+#### Install Driver
+
+Place the downloaded driver in the previous step into the installation's `lib/` directory.
+For instance, if you are using MySQL and downloaded the mysql-connector-java-5.1.38-bin.jar, you would do the following:
+
+```
+$ cp /path/to/file/mysql-connector-java-5.1.38-bin.jar /usr/local/jdbcli-0.1.0/lib/
+```
+
+#### Add `jdbcli` to PATH (Optional)
+
+You may also want to add the installed bin directory, `/usr/local/jdbcli-0.1.0/bin/`, to your `$PATH` to more easily run via `jdbcli` instead of `/usr/local/jdbcli-0.1.0/bin/jdbcli`. This is platform-dependent (e.g. update your `.bashrc` if you use the bash shell).
+
+### Running
+
+```
+$ /usr/local/jdbcli-0.1.0/bin/jdbcli --version
+```
 
 ### License
 
