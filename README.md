@@ -66,6 +66,13 @@ You can also add `/usr/local/jdbcli-0.1.0/bin/` to your `$PATH` to more easily r
 $ /usr/local/jdbcli-0.1.0/bin/jdbcli --config /path/to/config
 ```
 
+In order to talk to your database of choice, you need to provide a database-specific JDBC library. 
+
+| Database    | JDBC driver download |
+| ----------- | -------------------- |
+| MySQL       | https://dev.mysql.com/downloads/connector/j/ |
+| PostgreSQL  | https://jdbc.postgresql.org/download.html |
+
 ### License
 
 Released under the MIT License (see LICENSE.txt file). Third party license information in NOTICE.txt file.
