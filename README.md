@@ -4,7 +4,7 @@
 
 * [Overview](#overview)
 * [Features](#features)
-  * [Horizontal Output](#horizontal output)
+  * [Horizontal Output](#horizontal-output)
 
 ### Overview
 
