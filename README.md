@@ -1,5 +1,11 @@
 # `jdbcli> a jdbc command-line interface`
 
+### Table of Contents
+
+* [Overview](#overview)
+* [Features](#features)
+  * [Horizontal Output](#horizontal output)
+
 ### Overview
 
 `jdbcli` is a jdbc command-line interface for interacting with databases. 
