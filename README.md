@@ -22,7 +22,7 @@ The goal is to mimic `mysql`, the MySQL command-line client as much as
 possible. After years of working with MySQL, the project I was on migrated to
 Oracle, and I soon grew to detest it. After a while, I realized that though I
 prefer MySQL, a lot of my grievances stemmed from having to choose between the
-bloated `SQLDeveloper` and the ugly `sqlplus`. When using MySQL, I
+bloated SQLDeveloper and the ugly SQL*Plus. When using MySQL, I
 often have multiple `mysql` processes in terminal tabs, and I really enjoy
 that way of working.
 
