@@ -98,12 +98,11 @@ $ sudo mv jdbcli-0.1.0 /usr/local/
 
 In order to talk to your database of choice, you need to provide a database-specific JDBC library.
 The below table includes links to download the JDBC library for common databases. Links may be outdated,
-in which case just Google it.
+in which case Just Google It.
 
 | Database     | JDBC driver download |
 | ------------ | -------------------- |
 | Apache Derby | https://db.apache.org/derby/derby_downloads.html |
-| Java DB      | (provided in JDK) |
 | MySQL        | https://dev.mysql.com/downloads/connector/j/ |
 | Oracle       | http://www.oracle.com/technetwork/database/features/jdbc/index.html |
 | PostgreSQL   | https://jdbc.postgresql.org/download.html |
