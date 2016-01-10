@@ -12,6 +12,8 @@ that way of working.
 Hopefully `jdbcli` makes you forget, if only for a little while, that
 you're connected to a non-MySQL database.
 
+### Table of Contents
+
 * [Features](#features)
   * [Horizontal Output](#horizontal-output)
   * [Vertical Output](#vertical-output)
