@@ -1,7 +1,5 @@
 ### `jdbcli>` a jdbc command-line interface
 
-### Overview
-
 `jdbcli` is a jdbc command-line interface for interacting with databases. 
 The goal is to mimic `mysql`, the MySQL command-line client as much as
 possible. After years of working with MySQL, the project I was on migrated to
