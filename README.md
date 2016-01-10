@@ -122,7 +122,7 @@ $ cp /path/to/file/mysql-connector-java-5.1.38-bin.jar /usr/local/jdbcli-0.1.0/l
 
 You may also want to add the installed bin directory, `/usr/local/jdbcli-0.1.0/bin/`, to your `$PATH` to more easily run via `jdbcli` instead of `/usr/local/jdbcli-0.1.0/bin/jdbcli`. This is platform-dependent (e.g. update your `.bashrc` if you use the bash shell).
 
-### Running
+### Usage
 
 ```
 $ /usr/local/jdbcli-0.1.0/bin/jdbcli --version
@@ -130,4 +130,4 @@ $ /usr/local/jdbcli-0.1.0/bin/jdbcli --version
 
 ### License
 
-Released under the MIT License (see LICENSE.txt file). Third party license information in NOTICE.txt file.
+Released under the MIT License (see LICENSE.txt file). See NOTICE.txt file for third party license information.
