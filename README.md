@@ -82,7 +82,7 @@ $ jdbcli --config ~/etc/myconfig.properties --execute "select id, name, city fro
 
 ##### Requirements
 
-You need a Java Runtime Environment (JRE) >= 1.6 and a suitable JDBC driver for your database.
+You need a Java Runtime Environment >= 1.6 and a suitable JDBC driver for your database.
 
 ##### Install `jdbcli`
 
