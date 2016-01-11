@@ -59,8 +59,8 @@ jdbcli> select id, name, city from team where id = 1234567890 \G
 
 ##### History
 
-The included [JLine](https://github.com/jline/jline2) library provides console input; it provides similar functionality to [BSD editline](http://thrysoee.dk/editline/) and [GNU readline](http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html). Commands get
-added to your history file, which is `~/.jdbcli_history` by default. The normal history functions are supported (e.g. up-arrow for previous command, searching).
+The included [JLine](https://github.com/jline/jline2) library handles console input, providing functionality similar to [BSD editline](http://thrysoee.dk/editline/) and [GNU readline](http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html). Commands get
+added to your history file (`~/.jdbcli_history` by default). The normal history functions are supported; for instance, up-arrow for previous command, searching, etc.
 
 ##### Non-Interactive Mode
 
