@@ -35,11 +35,11 @@ you're connected to a non-MySQL database.
 The standard output. Simply end your query with either `;` or `\g`
 ```
 jdbcli> select id, name, city from team where id = 1234567890;
-+------------+--------+--------------+
-| ID         | NAME   | CITY         |
-+------------+--------+--------------+
-| 1234567890 | Flyers | Philadelphia |
-+------------+--------+--------------+
++---------------+--------+--------------+
+| ID            | NAME   | CITY         |
++---------------+--------+--------------+
+| 1234567890119 | Flyers | Philadelphia |
++---------------+--------+--------------+
 1 row in set (0.03 sec)
 ```
 
@@ -69,11 +69,11 @@ either the `--execute` or `-e` argument. See below for an example:
 
 ```
 $ jdbcli --config ~/etc/myconfig.properties --execute "select id, name, city from team where id = 1234567890"
-+------------+--------+--------------+
-| ID         | NAME   | CITY         |
-+------------+--------+--------------+
-| 1234567890 | Flyers | Philadelphia |
-+------------+--------+--------------+
++---------------+--------+--------------+
+| ID            | NAME   | CITY         |
++---------------+--------+--------------+
+| 1234567890119 | Flyers | Philadelphia |
++---------------+--------+--------------+
 1 row in set (0.03 sec)
 ```
 
